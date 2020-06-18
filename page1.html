@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+  <body>
+    <!-- <h1>Hello, world!</h1> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">SITE NAME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style="color: white;">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#" style="color: white;">Nav1 <span class="sr-only"></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link disabled" href="#" style="color: white;">Nav2</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+<!-- side bar -->
+  <div class="row r1">
+    <div class="col-xs side">
+      
+        <div class="btn" id="sbtn">
+          <div id="x"><a href="" class="fa fa-facebook"></a></div>
+          <div id="x"><a href="" class="fa fa-twitter"></a></div>
+          <div id="x"><a href="" class="fa fa-instagram"></a></div>
+          <div id="x"><a href="" class="fa fa-linkedin"></a></div>
+          <div id="x"><a href="" class="fa fa-whatsapp"></a></div>
+          <div id="x"><a href="" class="fa fa-share"></a></div>
+          <div class="act">
+          <div id="btn-right"><a href="javascript:void(0);" class="fa fa-refresh" onclick="hide()"></a></div>
+          <!-- <div id="btn-left"><a href="" class="fa fa-angle-double-left"></a></div> -->
+        </div>
+        </div>
+        <script>
+          function hide(){
+            var x=document.getElementById("sbtn");
+            if(x.className==="btn"){
+              x.className+=" click";
+            }
+            else{
+              x.className="btn";
+            }
+
+          }
+        </script>
+        </div>
+      
+      </div>
+<!-- main -->
+<main role="main" class="container">
+  <div class="row r2">
+    <div class="col-md-9 blog-main">
+      <!-- <h3 class="pb-3 mb-4 font-italic border-bottom">
+        
+      </h3> -->
+
+      <div class="blog-post">
+        <h2 class="blog-post-title">Sample blog post</h2>
+        <img class="blog-post-image" src="im1.jpg">
+        
+        <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+
+        <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+        <p class="read-more"><a href="#" class="button">Read More..</a></p>
+        <p class="tags"><a href="" class="fa fa-tag"></a>asnd,asda</p>
+        <p class="comment"><a href="" class="fa fa-comment"></a><span style="color: darkolivegreen;">1</span></p>
+      </div><!-- /.blog-post -->
+
+      <div class="blog-post">
+        <h2 class="blog-post-title">Another blog post</h2>
+        <img class="blog-post-image" src="im2.jpg">
+        
+        <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
+
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+        <p class="read-more"><a href="#" class="button">Read More..</a></p>
+        <p class="tags"><a href="" class="fa fa-tag"></a>asnd,asda</p>
+        <p class="comment"><a href="" class="fa fa-comment"></a><span style="color: darkolivegreen;">1</span></p>
+       
+      </div><!-- /.blog-post -->
+
+      <div class="blog-post">
+        <h2 class="blog-post-title">New feature</h2>
+        <img class="blog-post-image" src="im3.jpg">
+        
+        <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p class="read-more"><a href="#" class="button">Read More..</a></p>
+        <p class="tags"><a href="" class="fa fa-tag"></a>asnd,asda</p>
+        <p class="comment"><a href="" class="fa fa-comment"></a><span style="color: darkolivegreen;">1</span></p>
+      </div><!-- /.blog-post -->
+
+      <nav class="blog-pagination">
+        <a class="btn btn-outline-primary" href="#">Older</a>
+        <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
+      </nav>
+
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-3 blog-sidebar">
+
+      <div class="p-3">
+        <h4 >Recents</h4>
+        <ol class="list-unstyled mb-0">
+          <li><a href="#">Sample Blog Post </a></li>
+          <li><a href="#">Another Blog Post</a></li>
+          <li><a href="#">Post No 3</a></li>
+          <li><a href="#">Post No 4</a></li>
+          <li><a href="#">Post No 5</a></li>
+          <li><a href="#">Post No 6</a></li>
+          
+        </ol>
+      </div>
+      <div class="break"></div>
+      <div class="p-3">
+        <h4 >Categories</h4>
+        <ol class="list-unstyled">
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Earning</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ol>
+      </div>
+    </aside><!-- /.blog-sidebar -->
+
+  </div><!-- /.row -->
+
+
+
+</main>
+
+
+  <!-- footer -->
+      <footer class="blog-footer">
+        
+<!-- all privacy policy and follow us -->        
+        <div class="container info">
+              <div class="row r3">
+              <div class="col-sm">
+             <ul>
+                  <li>Privacy Policiy</li>
+                 <li>Contact Us</li>
+                <li>Disclaimer</li>
+     
+              </ul>
+            </div>
+            <div class="col-sm">
+             <ul>
+               <li>Home</li>
+               <li>Nav1</li>
+               <li>Nav2</li>
+     
+             </ul>
+             </div>
+               <div class="col-sm">
+                 <ul>
+                  <li>Follow Us</li>
+                   <li>Facebook</li>
+                    <li>Twitter</li>
+                  <li>Insatagram</li>
+       
+                  </ul>
+             </div>
+           </div>
+           </div>
+
+          <a href="#">@Copyright</a>
+        <p>
+          <a href="#">Back to top</a>
+        </p>
+        </div>
+        
+      </footer>
+      
+
+
+      
+      
+
+  </body>
+</html>

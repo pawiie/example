@@ -1,0 +1,120 @@
+body{
+    background-color: lightgray;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: -12.6px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #a5217c;
+    color: white;
+  }
+  .fa-whatsapp{
+    background: #04ae72;
+    color: white;
+  }
+  .fa-share{
+    background: #d3aa06;
+    color: white;
+  }
+  .fa-refresh{
+    background: #adedf9;
+    color: white;
+  }
+  
+
+  .side{
+    position: fixed;
+    z-index: 1;
+      padding-top: 80px;
+      padding-right: 50px;
+      max-width: 10px;
+      
+  }
+  .btn a{
+      display: block;
+  }
+  .btn.click #x{
+      display: none;
+  }
+
+
+.read-more{
+    margin-top: -10px;
+    font-size: 13px;
+    color: blue;
+}
+.tags{
+    margin-top: -10px;
+    font-size: 12px;
+}
+.comment{
+    margin-top: -30px;
+    font-size: 12px;
+
+}
+.p-3 li{
+    font-size: 14px;
+}
+
+.info{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.r2{
+    margin-top: 5px;
+}
+.r3{
+      color: white;
+}
+.r3 li{
+    list-style-type: none;
+}
+.blog-post{
+    padding-left: 50px;
+    padding-top: 5px;
+   
+    background-color:white;
+}
+.blog-sidebar{
+    background-color:white; 
+    height: 50%;
+     
+}
+
+
+
+
+.blog-footer {
+    
+    padding: 2.5rem 0;
+    text-align: center;
+    background-color: #374045;
+    border-top: .05rem solid #e5e5e5;
+  }
+  .blog-footer p:last-child {
+    margin-bottom: 0;
+  }
+  .blog-footer a{
+      color: #e5e5e5;
+  }
