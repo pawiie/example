@@ -87,6 +87,7 @@ body{
 .r2 img{
     max-width: 100%;
     height: auto;
+    padding-right:5px;
 }
 .r3{
       color: white;
@@ -95,9 +96,9 @@ body{
     list-style-type: none;
 }
 .blog-post{
-    padding-left: 10px;
+    padding-left: 50px;
     padding-top: 5px;
-    padding-right: 10px;
+    
    
     background-color:white;
 }
